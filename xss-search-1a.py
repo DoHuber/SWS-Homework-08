@@ -13,7 +13,7 @@ main_doc = '''
 <!doctype html>
 <html><body>
 <h1>SEC Community</h1>
-<h2>Exiting security vulnerabilities and more!</h2>
+<h2>Exiting security vulnerabilities and more 8082a!</h2>
 <h3>User Lookup</h3>
 Please enter a query string:
 <form method="get">
@@ -52,6 +52,6 @@ class MyHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    server = HTTPServer(('', 8081), MyHandler)
-    print("Starting web server on http://localhost:8081/")
+    server = HTTPServer(('', 8082), MyHandler)
+    print("Starting web server on http://localhost:8082/")
     server.serve_forever()
